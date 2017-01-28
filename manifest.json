@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube Downloader Video MP4 & MP3 Converter",
+  "description": "This is simple extension to download the video or audio from Youtube using http://www.mp3convert.me/. This plugin is not official from http://mp3convert.me. This is open source. anyone can change it.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/mp3convert-icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
